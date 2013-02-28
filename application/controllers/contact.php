@@ -63,11 +63,10 @@ class Contact extends CI_Controller {
             'Autre' => 'Autre'
         );
         $data['form']['module'] = array (
-            '1' => 'Cristallin cadré',
-            '2' => 'Cristallin sans cadre',
-            '3' => 'Couche mince',
-            '4' => 'Membrane',
-            '5' => 'Je ne sais pas'
+            '1' => 'Panneau avec cadre',
+            '2' => 'Panneau sans cadre',
+            '3' => 'Membrane',
+            '4' => 'Je ne sais pas'
         );
         $data['form']['propriety'] = array (
             'oui' => 'oui',
@@ -93,48 +92,26 @@ class Contact extends CI_Controller {
         $mail_sent = "non";
         if ($this->input->post('q'))
         {
-            switch($this->input->post('module')){
-                case '1':
-                    $module = "Cristallin cadré";
+            foreach ($data['form']['module'] as $choice => $module_choice) {
+                if ($choice == $this->input->post('module')) {
+                    $module = $module_choice;
                     break;
-                case '2':
-                    $module = "Cristallin sans cadre";
-                    break;
-                case '3':
-                    $module = "Couche mince";
-                    break;
-                case '4':
-                    $module = "Membrane";
-                    break;
-                case '5':
-                    $module = "Ne sait pas";
-                    break;
-
+                }
             }
-            switch($this->input->post('object')){
-                case '1':
-                    $object = "Maintenance";
+            foreach ($data['form']['object'] as $choice => $object_choice) {
+                if ($choice == $this->input->post('object')) {
+                    $object = $object_choice;
                     break;
-                case '2':
-                    $object = "Nettoyage";
-                    break;
-                case '3':
-                    $object = "Maintenance + Nettoyage";
-                    break;
-                case '4':
-                    $object = "Dépannage";
-                    break;
-                case '5':
-                    $object = "Autres";
-                    break;
-
+                }
             }
+
+
             $message =nl2br($this->input->post('msg'));
             $adresse = (empty($_POST['street']) and empty($_POST['ZIP']) and empty($_POST['city']))? $adresse="N.C." : $adresse = $this->input->post('street').', '.$this->input->post('ZIP').' '.$this->input->post('city');
             $power = (empty($_POST['power']))? $power="N.C." : $power = $this->input->post('power') ;
             $this->load->library('email');
             $this->email->from($this->input->post('email', $this->input->post('firstName')." ".$this->input->post('name')));
-            $this->email->to('amisun.ouest@gmail.com');//amisun.ouest@gmail.com
+            $this->email->to('clement.patout@gmail.com');//amisun.ouest@gmail.com
             $this->email->subject('Demande de contact émanant du site amisun.fr : '.$object);
             $this->email->message('Message de Mr/Mme '.$this->input->post('name').' '.$this->input->post('firstName').',<br><br>
             <b>Téléphone</b> : '.$this->input->post('tel').'<br>
