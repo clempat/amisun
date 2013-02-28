@@ -39,37 +39,3 @@
   }
 
 })(jQuery, this);
-
-$(window).load(function() {
-    $("#reference").orbit({captions: true,  bullets: true});
-    $("#contactForm").validate({
-        rules: {
-            "name":{
-                "required": true,
-                "minlength": 2,
-                "maxlength": 50
-            },
-            "firstName":{
-                "required": true,
-                "minlength": 2,
-                "maxlength": 50
-            },
-            "email":{
-                "email": true,
-                required:true,
-                "maxlength": 255
-            },
-            "building":{
-                "required": true,
-                "minlength": 5
-            },
-            "msg":{
-                "required": true
-            }
-
-        }
-    });
-
-
-
-});
