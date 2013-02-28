@@ -29,7 +29,7 @@
 // $headerFontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $headerFontWeight: bold;
 // $headerFontStyle: normal;
-// $headerFontColor: #222;
+$headerFontColor: #BFDC7A;
 // $bodyFontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $bodyFontWeight: normal;
 // $bodyFontStyle: normal;
@@ -96,9 +96,9 @@
 // Top Bar Settings
 
 // $topBarBgColor: #222;
-// $topBarHeight: 45px;
-// $topBarHeightMobile: 45px;
-// $topBarBtmMargin: 30px;
+$topBarHeight: 70px;
+$topBarHeightMobile: 80px;
+$topBarBtmMargin: 0px;
 // $topBarTitleWeight: bold;
 // $topBarTitleSize: 17px;
 // $topBarLinkColor: #fff;
