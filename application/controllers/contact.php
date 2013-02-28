@@ -111,7 +111,7 @@ class Contact extends CI_Controller {
             $power = (empty($_POST['power']))? $power="N.C." : $power = $this->input->post('power') ;
             $this->load->library('email');
             $this->email->from($this->input->post('email', $this->input->post('firstName')." ".$this->input->post('name')));
-            $this->email->to('clement.patout@gmail.com');//amisun.ouest@gmail.com
+            $this->email->to('amisun.ouest@gmail.com');//amisun.ouest@gmail.com
             $this->email->subject('Demande de contact émanant du site amisun.fr : '.$object);
             $this->email->message('Message de Mr/Mme '.$this->input->post('name').' '.$this->input->post('firstName').',<br><br>
             <b>Téléphone</b> : '.$this->input->post('tel').'<br>
