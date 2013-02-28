@@ -11,7 +11,7 @@
 
 
 <div class="twelve columns" style="margin-top: 20px">
-    <?php echo img(array('src' => 'images/maintenance.jpg', 'class' => 'four columns', 'style'=>'float:right;')); ?>
+    <?php echo img(array('src' => 'assets/images/maintenance.jpg', 'class' => 'four columns', 'style'=>'float:right;')); ?>
     <p>
         Cette maintenance préventive permet de vérifier visuellement l’état technique du matériel (panneaux, câbles,
         onduleurs…), réduire les risques de pannes, maintenir la production initialement prévue, signaler les

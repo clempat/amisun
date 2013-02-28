@@ -11,7 +11,7 @@
 
 
 <div class="twelve columns" style="margin-top: 20px">
-    <?php echo img(array('src' => 'images/nettoyage.jpg', 'class' => 'five columns')); ?>
+    <?php echo img(array('src' => 'assets/images/nettoyage.jpg', 'class' => 'five columns')); ?>
     <p>
         Un nettoyage à l'eau pure est nécessaire 1 à 2 fois par an pour éviter une perte de production et optimiser
         votre rendement. En effet, le dépôt d’encrassement (poussières, pollen, fientes, feuilles, pollution agricole,
@@ -26,7 +26,7 @@
         Nous disposons des garanties techniques et assurances spécifiques lors de nos interventions (CACES, Travail en
         hauteur, Habilitation électrique…), nous vous garantissons <strong>un sérieux et un professionnalisme</strong>.
     </p>
-    <?php echo img(array('src' => 'images/nettoyage2.png', 'class' => 'four columns right', 'style' => 'float:right;')); ?>
+    <?php echo img(array('src' => 'assets/images/nettoyage2.png', 'class' => 'four columns right', 'style' => 'float:right;')); ?>
     <p>
         Les panneaux sont nettoyés avec une machine industrielle : une <strong>brosse rotative</strong> et de <strong>l'eau
         pure</strong> obtenue par

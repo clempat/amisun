@@ -10,7 +10,7 @@
 <h1 xmlns="http://www.w3.org/1999/html">Nos Coordonnées</h1>
 
 <div class="six columns" >
-    <?php echo img("images/staticmap.png"); ?>
+    <?php echo img("assets/images/staticmap.png"); ?>
 </div><br>
 <div class="five columns">
     <div itemscope itemtype="http://schema.org/LocalBusiness">

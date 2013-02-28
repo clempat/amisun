@@ -37,14 +37,11 @@
 	</title>
 
 	<!-- Included CSS Files -->
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/foundation'); ?>/stylesheets/app.css">
-
-	<!-- My Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/'); ?>/css/style.css">
-	<!-- END My Stylesheet-->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets'); ?>/stylesheets/app.css">
+	<!-- END Stylesheet-->
 
 	<!--[if lt IE 9]>
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/foundation'); ?>/stylesheets/ie.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets'); ?>/stylesheets/ie.css">
 	<![endif]-->
 
 	<script src="<?php echo base_url('assets/foundation'); ?>/javascripts/modernizr.foundation.js"></script>
@@ -54,18 +51,18 @@
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-    <link rel="apple-touch-icon" type="image/png" href="<?php echo base_url('images'); ?>/icon32x32.png" />
-	<link rel="shortcut icon" href="images/icon.ico">
+    <link rel="apple-touch-icon" type="assets/images/png" href="<?php echo base_url('images'); ?>/icon32x32.png" />
+	<link rel="shortcut icon" href="assets/images/icon.ico">
 
 	<!-- Necessary Scripts -->
-	<script src="<?php echo base_url('assets/js'); ?>/head.load.min.js"></script>
+	<script src="<?php echo base_url('assets/javascripts'); ?>/head.load.min.js"></script>
 
 </head>
 <body>
 <div class="menu contain-to-grid">
     <nav class="top-bar">
         <ul>
-            <li class="name"><?php echo anchor("",img(array('images/amisun.png', 'class'=>"mobile-centered", 'id'=>"logo" )))?></li>
+            <li class="name"><?php echo anchor("",img(array('assets/images/amisun.png', 'class'=>"mobile-centered", 'id'=>"logo" )))?></li>
             <li class="toggle-topbar"><a href="#"></a></li>
         </ul>
         <section>
@@ -85,10 +82,10 @@
 </div>
 
 <div id="top_page">
-  <?php echo img(array('images/fond-top.svg', 'class'=>"background" ))?>
+  <?php echo img(array('assets/images/fond-top.svg', 'class'=>"background" ))?>
   <div class="row">
-      <div class="four columns article">
-      <h2>L'entreprise AMISUN</h2><p>est spécialisée dans l’entretien des générateurs photovoltaïques. Maintenance - Nettoyage - Dépannage - Bureau d’Etudes - Distribution</p></div></div>
+      <div class="five columns article">
+      <h2>L'entreprise AMISUN</h2><p class="lead">est spécialisée dans l’entretien des générateurs photovoltaïques. Maintenance - Nettoyage - Dépannage - Bureau d’Etudes - Distribution</p></div></div>
   <div class="ribbon-wrapper-green"><div class="ribbon-green"><?php echo anchor("contact", "Contact") ?></div></div>
 </div>
 
