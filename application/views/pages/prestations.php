@@ -8,7 +8,7 @@
  */?>
 <h1>Nos Prestations</h1>
 
-<div class="five columns hide-for-small" style="margin-top: 80px"><?php echo img('images/solar.jpg'); ?></div>
+<div class="five columns hide-for-small" style="margin-top: 80px"><?php echo img('assets/images/solar.jpg'); ?></div>
 <div class="six columns offset-by-one" style="padding-top: 20px;">
     <ul class="disc">
         <li>Nous <b>entretenons</b> votre installation photovoltaïque:

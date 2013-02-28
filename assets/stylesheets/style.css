@@ -1,48 +1,76 @@
 @media only screen and (max-width: 767px) {
+  /* line 1, ../sass/style.scss */
   .mobile-center {
     display: block;
     margin-left: auto;
-    margin-right: auto; } }
+    margin-right: auto;
+  }
+}
 
+/* line 4, ../sass/style.scss */
 #logo {
-  width: 280px; }
-  @media only screen and (max-width: 767px) {
-    #logo {
-      width: 280px;
-      max-width: 70%; } }
-  #logo img {
-    margin-bottom: -10px; }
+  width: 280px;
+}
+@media only screen and (max-width: 767px) {
+  /* line 4, ../sass/style.scss */
+  #logo {
+    width: 280px;
+    max-width: 70%;
+  }
+}
+/* line 7, ../sass/style.scss */
+#logo img {
+  margin-bottom: -10px;
+}
 
+/* line 9, ../sass/style.scss */
 #top_page {
-  position: relative; }
+  position: relative;
+}
 
+/* line 12, ../sass/style.scss */
 .background {
   z-index: -1;
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 100%; }
+  width: 100%;
+}
 
+/* line 19, ../sass/style.scss */
 .article {
   position: absolute;
   top: 40px;
   left: 10%;
-  color: #fff; }
-  .article h3 {
-    color: #fff; }
-  @media only screen and (max-width: 1200px) {
-    .article {
-      display: none; } }
+  color: #fff;
+}
+/* line 23, ../sass/style.scss */
+.article h3 {
+  color: #fff;
+}
+@media only screen and (max-width: 1200px) {
+  /* line 19, ../sass/style.scss */
+  .article {
+    display: none;
+  }
+}
 
+/* line 27, ../sass/style.scss */
 .page {
-  margin-top: 25%; }
+  margin-top: 25%;
+}
 
+/* line 30, ../sass/style.scss */
 h1, h2 {
-  text-shadow: 2px 2px 3px #2b2b2b; }
+  text-shadow: 2px 2px 3px #2b2b2b;
+}
 
+/* line 33, ../sass/style.scss */
 .adresse {
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
+/* line 36, ../sass/style.scss */
 #bottom_page {
   width: 100%;
   height: 55px;
@@ -51,20 +79,27 @@ h1, h2 {
   color: #ffffff;
   margin-top: 50px;
   line-height: 55px;
-  font-size: 12px; }
-  @media only screen and (max-width: 690px) {
-    #bottom_page span {
-      display: none; } }
+  font-size: 12px;
+}
+@media only screen and (max-width: 690px) {
+  /* line 45, ../sass/style.scss */
+  #bottom_page span {
+    display: none;
+  }
+}
 
 /*RIBBON*/
+/* line 53, ../sass/style.scss */
 .ribbon-wrapper-green {
   width: 85px;
   height: 88px;
   overflow: hidden;
   position: absolute;
   top: -3px;
-  right: 0px; }
+  right: 0px;
+}
 
+/* line 62, ../sass/style.scss */
 .ribbon-green {
   font: bold 15px Sans-Serif;
   color: #333;
@@ -88,20 +123,29 @@ h1, h2 {
   color: #6a6340;
   -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
 
+/* line 88, ../sass/style.scss */
 .ribbon-green:before, .ribbon-green:after {
   content: "";
   border-top: 3px solid #6e8900;
   border-left: 3px solid transparent;
   position: absolute;
-  bottom: -3px; }
+  bottom: -3px;
+}
 
+/* line 96, ../sass/style.scss */
 .ribbon-green:before {
-  left: 0; }
+  left: 0;
+}
 
+/* line 99, ../sass/style.scss */
 .ribbon-green:after {
-  right: 0; }
+  right: 0;
+}
 
+/* line 102, ../sass/style.scss */
 label.required {
-  color: #8b0000; }
+  color: #8b0000;
+}
