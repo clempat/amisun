@@ -38,6 +38,7 @@
 
 	<!-- Included CSS Files -->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets'); ?>/stylesheets/app.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets'); ?>/stylesheets/style.css">
 	<!-- END Stylesheet-->
 
 	<!--[if lt IE 9]>

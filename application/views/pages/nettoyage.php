@@ -10,7 +10,7 @@
 <h1>Nettoyage de vos panneaux solaires</h1>
 
 
-<div class="twelve columns" style="margin-top: 20px">
+<div class="twelve columns text-justify" style="margin-top: 20px">
     <?php echo img(array('src' => 'assets/images/nettoyage.jpg', 'class' => 'five columns')); ?>
     <p>
         Un nettoyage à l'eau pure est nécessaire 1 à 2 fois par an pour éviter une perte de production et optimiser
@@ -51,6 +51,8 @@
 
     <p>
         Nous intervenons sur tout type de modules, la <strong>garantie fabricant est conservée</strong>.
-        N’hésitez pas à nous demander un devis gratuit !!!
+    </p>
+    <p>
+        <strong>N’hésitez pas à nous demander un devis gratuit !!!</strong>
     </p>
 </div>

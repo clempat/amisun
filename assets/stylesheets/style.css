@@ -149,3 +149,8 @@ h1, h2 {
 label.required {
   color: #8b0000;
 }
+
+/* line 105, ../sass/style.scss */
+.text-justify {
+  text-align: justify;
+}
