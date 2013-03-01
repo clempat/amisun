@@ -25,7 +25,7 @@
 
 	<meta name="og:title" content="AMISUN - Expert Photovoltaïque"/>
 	<meta name="og:type" content="SARL AMISUN"/>
-	<meta name="og:url" content="<?php echo base_url('assets/'); ?>"/>
+	<meta name="og:url" content="<?php echo base_url(''); ?>"/>
 	<meta name="og:image" content="<?php echo base_url('images/'); ?>/amisun_noir.png"/>
 	<meta name="og:site_name" content="SARL AMISUN"/>
 	<meta name="og:description" content="Site de SARL AMISUN, L'expertise photovoltaïque à portée de main."/>
