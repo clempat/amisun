@@ -154,3 +154,8 @@ label.required {
 .text-justify {
   text-align: justify;
 }
+
+/* line 109, ../sass/style.scss */
+p.lead {
+  font-size: 20px;
+}
