@@ -86,7 +86,7 @@
   <?php echo img(array('assets/images/fond-top.svg', 'class'=>"background" ))?>
   <div class="row">
       <div class="five columns article">
-      <h2>L'entreprise AMISUN</h2><p class="lead">est spécialisée dans l’entretien des générateurs photovoltaïques. Maintenance - Nettoyage - Dépannage - Bureau d’Etudes - Distribution</p></div></div>
+      <h2>L'entreprise AMISUN</h2><p class="lead">est spécialisée dans l’entretien des générateurs photovoltaïques. Maintenance - Nettoyage - Dépannage - Bureau d’Etudes - Distribution</p> <?php echo img(array('src' => 'assets/images/qualipv2013.png', 'width' => '100px', 'class' => '')); ?></div></div>
   <div class="ribbon-wrapper-green"><div class="ribbon-green"><?php echo anchor("contact", "Contact") ?></div></div>
 </div>
 
