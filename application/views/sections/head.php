@@ -52,8 +52,8 @@
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-    <link rel="apple-touch-icon" type="assets/images/png" href="<?php echo base_url('images'); ?>/icon32x32.png" />
-	<link rel="shortcut icon" href="assets/images/icon.ico">
+    <link rel="apple-touch-icon" type="assets/images/png" href="<?php echo base_url('assets/images'); ?>/icon32x32.png" />
+	<link rel="shortcut icon" href="<?php echo base_url('assets/images/icon.ico'); ?>">
 
 	<!-- Necessary Scripts -->
 	<script src="<?php echo base_url('assets/javascripts'); ?>/head.load.min.js"></script>
@@ -73,9 +73,11 @@
                 <li class="divider"></li>
                 <li><?php echo anchor("nettoyage", "Nettoyage") ?></li>
                 <li class="divider"></li>
-                <li><?php echo anchor("prestations", "Nos autres Prestations") ?></li>
+                <li><?php echo anchor("depannage", "Dépannage") ?></li>
                 <li class="divider"></li>
-                <li><?php echo anchor("coordonnees", "Nos Coordonnées") ?></li>
+                <li><?php echo anchor("prestations", "Autres Prestations") ?></li>
+                <li class="divider"></li>
+                <li><?php echo anchor("coordonnees", "Coordonnées") ?></li>
                 <li class="divider"></li>
             </ul>
         </section>
