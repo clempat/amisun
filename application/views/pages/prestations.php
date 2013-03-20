@@ -8,9 +8,11 @@
  */?>
 <h1>Nos Prestations</h1>
 
-<div class="five columns hide-for-small" style="margin-top: 80px"><?php echo img('assets/images/solar.jpg'); ?></div>
+<div class="five columns hide-for-small" style="margin-top: 80px">
+    <?php echo img('assets/images/solar.jpg'); ?>
+</div>
 <div class="six columns offset-by-one" style="padding-top: 20px;">
-    <ul class="disc">
+    <ul class="no-bullet">
         <li>Nous <b>entretenons</b> votre installation photovoltaïque:
             <ul>
                 <li>Maintenance préventive,</li>
@@ -24,6 +26,8 @@
                 <li>Raccordé réseau,</li>
                 <li>Auto-consommation,</li>
                 <li>Site Isolé,</li>
+                <li>Démarches administratives,</li>
+                <li>Dossier technique Consuel,</li>
                 <li>...</li>
             </ul>
         </li>
@@ -32,10 +36,11 @@
             <li>Panneaux,</li>
             <li>Onduleurs,</li>
             <li>Structures,</li>
-            <li>Connecteurs,</li>
+            <li>Connecteurs MC4,</li>
             <li>Régulateurs,</li>
-            <li>Batteries,</li>
+            <li>Batteries 2V-12V-24V,</li>
             <li>Coffret de protection,</li>
+            <li>Kit autoconsommation,</li>
             <li>...</li>
         </ul>
         </li>
@@ -46,8 +51,14 @@
                 <li>Monitoring,</li>
                 <li>Afficheur LED,</li>
                 <li>Extracteur d’air dans les locaux onduleurs,</li>
+                <li>SAV,</li>
                 <li>...</li>
             </ul>
         </li>
     </ul>
+    <div class="row">
+        <div class="five mobile-two columns"><?php echo img('assets/images/prestation2.png'); ?></div>
+        <div class="six mobile-two columns end"><?php echo img('assets/images/prestation1.png'); ?></div>
+    </div>
 </div>
+

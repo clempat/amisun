@@ -17,8 +17,8 @@
     <p>
     <ul class= "disc">
         <li>Installation terminée mais non raccordée avec dossier technique Consuel sans VISA,</li>
-        <li>Compteur ERDF non posé (Assistance prévu jusqu'à la mise en service),</li>
-        <li>Contrat OA reçu mais votre installateur n’existe plus pour attester sur l’honneur que votre installation respecte les critères d’intégration pour valider votre tarif de rachat,</li>
+        <li>Compteur ERDF non posé (assistance prévue jusqu'à la mise en service),</li>
+        <li>Contrat OA (Obligation Achat) reçu, mais votre installateur n’existe plus pour attester sur l’honneur que votre installation respecte les critères d’intégration pour valider votre tarif de rachat,</li>
         <li>...</li>
     </ul></p>
     <h3>Dépannage technique</h3>
@@ -31,13 +31,13 @@
             <li>L’onduleur ne démarre plus,</li>
             <li>Onduleur inadapté à votre configuration,</li>
             <li>Déconnexion du disjoncteur 30mA dans le coffret,</li>
-            <li>Parafoudre a déclenché, </li>
-            <li>Votre système de communication (monitoring) ne fonctionne plus (MaxWeb, Webbox, Tigo, Solaredge…),</li>
+            <li>Déclenchament parafoudre, </li>
+            <li>Votre système de communication (monitoring) ne fonctionne plus (MaxWeb, Webbox, Tigo Energy, Solaredge…),</li>
             <li>...</li>
         </ul></p>
 
         <p><strong>
-            AMISUN dépanne toutes les marques d’onduleurs (SolarMax, Kaco, SMA, PowerOne, GE, Schneider, Delta, Wurth Solar, Solaredge, Nedap, Socomec, Fronuis…)
+                AMISUN dépanne toutes les marques d’onduleurs (SolarMax, Kaco, SMA, PowerOne, GE, Schneider, Delta, Wurth Solar, Solaredge, Nedap, Socomec, Fronuis, Ingeteam…)
         </strong></p>
         <p><strong>AMISUN vous proposera un onduleur de prêt le temps de l’échange avec le constructeur (sous réserve de disponibilité)</strong></p>
         <p><strong>Un dépannage ne fera pas l’objet d’une maintenance préventive.</strong></p>
