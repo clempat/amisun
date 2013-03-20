@@ -57,8 +57,8 @@ class Contact extends CI_Controller {
             'style' => 'text-align: right;'
         );
         $data['form']['type'] = array (
-            'Sol' => 'Au Sol',
             'Toiture' => 'Toiture',
+            'Sol' => 'Au Sol',
             'Facade' => 'En Facade',
             'Autre' => 'Autre'
         );
@@ -83,9 +83,9 @@ class Contact extends CI_Controller {
             'class' => 'button'
         );
         $data['form']['object'] = array (
-            '1' => 'Maintenance',
+            '1' => 'Maintenance + Nettoyage',
             '2' => 'Nettoyage',
-            '3' => 'Maintenance + Nettoyage',
+            '3' => 'Maintenance',
             '4' => 'Dépannage',
             '5' => 'Autres'
         );
