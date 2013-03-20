@@ -26,24 +26,17 @@
 </div>
 
 <div class="five columns panel radius">
-    <h3>Interlocuteur unique</h3>
+    <h3>Un interlocuteur unique</h3>
 
-    <p><strong>AMISUN</strong> dispose d’une expérience de 7 ans sur le terrain et en bureau d’études photovoltaïque,
-        nous avons constaté
-        qu’il était indispensable d’effectuer un suivi de votre générateur solaire pour garantir le bon fonctionnement
-        du système dans le temps et sécuriser vos revenus (Maintenance électrique, nettoyage, dépannage,
-        monitoring…)
+    <p><strong>AMISUN</strong> a l’avantage d’avoir une expérience de 7 ans sur le terrain et en bureau d’études photovoltaïque, nous avons constaté qu’il était indispensable d’effectuer un suivi de votre générateur solaire pour garantir le bon fonctionnement du système dans le temps et sécuriser vos revenus (Maintenance électrique, nettoyage, dépannage, monitoring…)
     </p>
 
     <p>
-        <strong>AMISUN</strong> dispose des qualifications et certifications nécessaires pour l’entretien de votre générateur solaire
-        (Habilitation électrique, Travail en hauteur, CACES, Attestation Quali’PV, assurance décennale…)
+        <strong>AMISUN</strong> dispose des qualifications et certifications nécessaires pour l’entretien de votre générateur solaire (Habilitation électrique, travail en hauteur, CACES nacelle, attestation Quali’PV, assurance décennale, responsabilité civile professionnelle…)
     </p>
 
     <p>
-        <strong>AMISUN</strong> intervient chez les particuliers et professionnels dans le Nord Ouest de la France et plus
-        particulièrement dans les départements suivants : Mayenne (53), Sarthe (72), Maine et Loire (49), Ille et
-        Vilaine (35), Orne (61), Manche (50)…
+        <strong>AMISUN</strong> intervient chez les particuliers et professionnels dans le Nord Ouest de la France dans les départements suivants : Mayenne (53), Sarthe (72), Maine et Loire (49), Ille et Vilaine (35), Orne (61), Manche (50)…
     </p>
 
 </div>

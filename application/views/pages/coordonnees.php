@@ -21,8 +21,18 @@
         </div>
         <br>
         <b class="format">Téléphone : </b>
-        <span itemprop="telephone">06 46 47 29 69</span> ou <span itemprop="telephone">06 86 51 17 59</span>
-        <br>
+        <p>
+        <ul class="inline-list text-center">
+            <li>
+                <div><?php echo img("assets/images/fabien.png"); ?></div>
+                <div><span itemprop="founder">OLLIVIER Fabien</span><br><span itemprop="telephone">06 46 47 29 69</span> </div>
+            </li>
+            <li>
+                <div><?php echo img("assets/images/david.png"); ?></div>
+                <div><span itemprop="founder">LARBRE David</span><br><span itemprop="telephone">06 86 51 17 59</span> </div>
+            </li>
+        </ul>
+        </p>
         <b class="format">Email : </b>
         <span itemprop="email"><?php echo mailto('amisun.ouest@gmail.com', 'amisun.ouest@gmail.com');?></span>
     </div>
