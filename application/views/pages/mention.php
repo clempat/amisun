@@ -10,7 +10,7 @@
 <h1>Informations légales</h1>
 <h3>1. Présentation du site.</h3>
 <p>En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site <a href="http://www.amisun.fr/" title="SARL AMISUN - www.amisun.fr">www.amisun.fr</a> l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi :</p>
-<p>Propriétaire : SARL AMISUN – numero de siret – amisun.ouest (at) gmail.com<br>
+<p>Propriétaire : SARL AMISUN – SIREN: 791 836 752 – amisun.ouest (at) gmail.com<br>
     Créateur  : <a href="www.patataweb.com">patataweb</a><br>
     Responsable publication : SARL AMISUN – amisun.ouest (at) gmail.com<br>
     Le responsable publication est une personne physique ou une personne morale.<br>
