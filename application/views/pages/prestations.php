@@ -8,8 +8,9 @@
  */?>
 <h1>Nos Prestations</h1>
 
-<div class="five columns hide-for-small" style="margin-top: 80px">
-    <?php echo img('assets/images/solar.jpg'); ?>
+<div class="five columns hide-for-small text-center" style="margin-top: 80px">
+    <?php echo img('assets/images/prestation2.png'); ?>
+    <?php echo img('assets/images/prestation1.png'); ?>
 </div>
 <div class="six columns offset-by-one" style="padding-top: 20px;">
     <ul class="no-bullet">
@@ -56,9 +57,5 @@
             </ul>
         </li>
     </ul>
-    <div class="row">
-        <div class="five mobile-two columns"><?php echo img('assets/images/prestation2.png'); ?></div>
-        <div class="six mobile-two columns end"><?php echo img('assets/images/prestation1.png'); ?></div>
-    </div>
 </div>
 

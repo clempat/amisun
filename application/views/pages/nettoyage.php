@@ -22,7 +22,7 @@
     <p>
         Nous disposons des garanties techniques et assurances spécifiques lors de nos interventions (CACES, travail en hauteur, habilitation électrique…), nous vous garantissons <strong>un sérieux et un professionnalisme.</strong>
     </p>
-    <?php echo img(array('src' => 'assets/images/nettoyage2.png', 'class' => 'four columns right', 'style' => 'float:right;')); ?>
+    <?php echo img(array('src' => 'assets/images/nettoyage2.png', 'class' => 'six columns right', 'style' => 'float:right;')); ?>
     <p>
         Les panneaux sont nettoyés avec une machine industrielle : une <strong>brosse</strong> et de l'<strong>eau pure</strong> obtenue par osmose inverse. L'appareil pulvérise des microparticules d'eau évitant tout choc thermique et permettant une faible consommation d'eau.
     </p>

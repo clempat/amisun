@@ -3,9 +3,11 @@
 <div class="seven columns" style="margin-top: 60px">
     <div id="reference">
         <?php echo img(array('assets/images/logo_amisun.jpg', 'alt' => "Logo Amisun"))?>
+
+        <?php echo img(array('assets/images/orbit/orbit3.jpg', 'alt' => "Maintenance électrique", 'data-caption' => "#Caption3"))?>
         <?php echo img(array('assets/images/orbit/orbit1.png', 'alt' => "Raccordé réseau 245 kWc", 'data-caption' => "#Caption1"))?>
         <?php echo img(array('assets/images/orbit/orbit2.jpg', 'alt' => "Raccordé réseau 180 kWc", 'data-caption' => "#Caption2"))?>
-        <?php echo img(array('assets/images/orbit/orbit3.jpg', 'alt' => "Maintenance électrique", 'data-caption' => "#Caption3"))?>
+
         <?php echo img(array('assets/images/orbit/orbit4.png', 'alt' => "Nettoyage", 'data-caption' => "#Caption4"))?>
         <?php echo img(array('assets/images/orbit/orbit5.png', 'alt' => "Nettoyage", 'data-caption' => "#Caption5"))?>
         <?php echo img(array('assets/images/orbit/orbit6.jpg', 'alt' => "Raccordé réseau particulier", 'data-caption' => "#Caption6"))?>
