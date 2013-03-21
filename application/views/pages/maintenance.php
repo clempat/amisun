@@ -35,7 +35,7 @@
         <li>Contrôle du fonctionnement coupure d’urgence.</li>
         <li>...</li>
     </ul></p>
-    <?php echo img(array('src' => 'assets/images/maintenance2.png', 'class' => 'three columns', 'style'=>'float:left;')); ?>
+    <?php echo img(array('src' => 'assets/images/maintenance2.png', 'class' => 'four columns', 'style'=>'float:left;')); ?>
         <p>
             Chaque maintenance préventive sera accompagnée d’un rapport d’intervention.
         </p>
