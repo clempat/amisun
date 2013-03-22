@@ -33,7 +33,6 @@
             </li>
         </ul>
         </p>
-        <b class="format">Email : </b>
-        <span itemprop="email"><?php echo mailto('amisun.ouest@gmail.com', 'amisun.ouest@gmail.com');?></span>
+        <p><strong>AMISUN</strong> est située à 10km de LAVAL (Mayenne), et proche des villes comme RENNES, LE MANS, ANGERS, ALENÇON...</p>
     </div>
 </div>
