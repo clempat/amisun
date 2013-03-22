@@ -35,17 +35,6 @@
 	<title>
 	<?php if (!isset($page_title)){echo "SARL AMISUN - L'expertise photovoltaïque à portée de main";} else {echo $page_title;} ?>
 	</title>
-    <script type="text/javascript">
-        var $buoop = {}
-        $buoop.ol = window.onload;
-        window.onload=function(){
-            try {if ($buoop.ol) $buoop.ol();}catch (e) {}
-            var e = document.createElement("script");
-            e.setAttribute("type", "text/javascript");
-            e.setAttribute("src", "http://browser-update.org/update.js");
-            document.body.appendChild(e);
-        }
-    </script>
 
     <!-- Included CSS Files -->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets'); ?>/stylesheets/app.css">
