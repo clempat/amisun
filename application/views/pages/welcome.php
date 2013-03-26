@@ -7,9 +7,8 @@
         <?php echo img(array('assets/images/orbit/orbit3.jpg', 'alt' => "Maintenance électrique", 'data-caption' => "#Caption3"))?>
         <?php echo img(array('assets/images/orbit/orbit1.png', 'alt' => "Raccordé réseau 245 kWc", 'data-caption' => "#Caption1"))?>
         <?php echo img(array('assets/images/orbit/orbit2.jpg', 'alt' => "Raccordé réseau 180 kWc", 'data-caption' => "#Caption2"))?>
-
-        <?php echo img(array('assets/images/orbit/orbit4.png', 'alt' => "Nettoyage", 'data-caption' => "#Caption4"))?>
-        <?php echo img(array('assets/images/orbit/orbit5.png', 'alt' => "Nettoyage", 'data-caption' => "#Caption5"))?>
+		<?php echo img(array('assets/images/orbit/orbit4.png', 'alt' => "Nettoyage", 'data-caption' => "#Caption5"))?>
+        <?php echo img(array('assets/images/orbit/orbit5.png', 'alt' => "Nettoyage", 'data-caption' => "#Caption4"))?>
         <?php echo img(array('assets/images/orbit/orbit6.jpg', 'alt' => "Raccordé réseau particulier", 'data-caption' => "#Caption6"))?>
         <?php echo img(array('assets/images/orbit/orbit7.jpg', 'alt' => "Local électrique", 'data-caption' => "#Caption7"))?>
         <?php echo img(array('assets/images/orbit/orbit8.jpg', 'alt' => "Maintenance électrique", 'data-caption' => "#Caption8"))?>
@@ -19,8 +18,8 @@
     <span class="orbit-caption" id="Caption1">Raccordé réseau 245 kWc</span>
     <span class="orbit-caption" id="Caption2">Raccordé réseau 180 kWc</span>
     <span class="orbit-caption" id="Caption3">Maintenance électrique</span>
-    <span class="orbit-caption" id="Caption4">Nettoyage</span>
-    <span class="orbit-caption" id="Caption5">Nettoyage</span>
+    <span class="orbit-caption" id="Caption4">Avant nettoyage - vue de près</span>
+    <span class="orbit-caption" id="Caption5">Avant nettoyage - vue de loin</span>
     <span class="orbit-caption" id="Caption6">Raccordé réseau et autoconsommation particulier</span>
     <span class="orbit-caption" id="Caption7">Local électrique</span>
     <span class="orbit-caption" id="Caption8">Site isolé</span>

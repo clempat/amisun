@@ -1,7 +1,7 @@
 </div>
 <div id="bottom_page">&copy; Amisun <span>| 6 allée du Clos Saint Martin - 53240 MONTFLOURS, FRANCE | Maintenance - Nettoyage - Dépannage</span> - <?php echo anchor("mention", "Mentions légales") ?></div>
 	<!-- Import all other JS files using HeadJS -->
-	<script type="text/javascript">
+    <script type="text/javascript">
 	head.js("<?php echo base_url('assets'); ?>/javascripts/jquery.js")
 		.js("<?php echo base_url('assets'); ?>/javascripts/foundation.min.js")
         .js("<?php echo base_url('assets'); ?>/javascripts/jquery.validate.min.js")
