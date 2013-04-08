@@ -44,8 +44,18 @@
 	<!--[if lt IE 9]>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets'); ?>/stylesheets/ie.css">
 	<![endif]-->
-
-	<script src="<?php echo base_url('assets'); ?>/javascripts/modernizr.foundation.js"></script>
+    <script type="text/javascript">
+        var $buoop = {}
+        $buoop.ol = window.onload;
+        window.onload=function(){
+            try {if ($buoop.ol) $buoop.ol();}catch (e) {}
+            var e = document.createElement("script");
+            e.setAttribute("type", "text/javascript");
+            e.setAttribute("src", "http://browser-update.org/update.js");
+            document.body.appendChild(e);
+        }
+    </script>
+    <script src="<?php echo base_url('assets'); ?>/javascripts/modernizr.foundation.js"></script>
 
 	<!-- IE Fix for HTML5 Tags -->
 	<!--[if lt IE 9]>
@@ -99,7 +109,7 @@
 </div>
 
 <div id="top_page">
-  <?php echo img(array('assets/images/fond-top.svg', 'class'=>"background" ))?>
+  <?php echo img(array('assets/images/fond-top.png', 'class'=>"background"))?>
   <div class="row">
       <div class="five columns article">
       <h2>La société AMISUN</h2><p class="lead"><nobr> est spécialisée dans l’entretien des installations photovoltaïques. </nobr><br /> <strong> Maintenance - Nettoyage - Dépannage </strong></p> <?php echo img(array('src' => 'assets/images/qualipv2013.png', 'width' => '100px', 'class' => '')); ?></div></div>

@@ -9,7 +9,7 @@
 
 class Pages extends CI_Controller {
 
-    public function view($page = 'welcome')
+    public function index($page = 'welcome')
     {
         if ( ! file_exists('application/views/pages/'.$page.'.php'))
         {
