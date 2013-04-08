@@ -30,7 +30,7 @@
     <p>
         L'eau déminéralisée se transforme en un vrai détergent capable de dissoudre toutes impuretés. Il est ainsi garanti que chaque pollution peut être éliminée avec efficacité.
     </p>
-
+    <?php echo img(array('src' => 'assets/images/nettoyage3.png', 'class' => 'two columns')); ?>
     <p>
         L'eau pure confère un pouvoir déperlant, une excellente capacité de mouillage et garantit l'absence de trace, même en cas d'exposition directe au soleil. Les charges statiques sont réduites au minimum et par conséquent les nouvelles impuretés adhérent moins rapidement.
     </p>
@@ -42,6 +42,7 @@
     <p>
         Nous intervenons sur tout type de modules, la <strong>garantie fabricant est conservée.</strong>
     </p>
+
     <p>
         <strong>N’hésitez pas à nous demander un devis.</strong>
     </p>

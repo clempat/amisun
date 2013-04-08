@@ -31,7 +31,7 @@
             <li>L’onduleur ne démarre plus,</li>
             <li>Onduleur inadapté à votre configuration,</li>
             <li>Déconnexion du disjoncteur 30mA dans le coffret,</li>
-            <li>Déclenchament parafoudre, </li>
+            <li>Déclenchement parafoudre, </li>
             <li>Votre système de communication (monitoring) ne fonctionne plus (MaxWeb, Webbox, Tigo Energy, Solaredge…),</li>
             <li>...</li>
         </ul></p>
