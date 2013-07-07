@@ -37,7 +37,7 @@
         </ul></p>
 
         <p><strong>
-                AMISUN dépanne toutes les marques d’onduleurs (SolarMax, Kaco, SMA, PowerOne, GE, Schneider, Delta, Wurth Solar, Solaredge, Nedap, Socomec, Fronuis, Ingeteam…)
+                AMISUN dépanne toutes les marques d’onduleurs (SolarMax, Kaco, SMA, PowerOne, GE, Schneider, Delta, Wurth Solar, Solaredge, Nedap, Socomec, Fronius, Ingeteam…)
         </strong></p>
         <p><strong>AMISUN vous proposera un onduleur de prêt le temps de l’échange avec le constructeur (sous réserve de disponibilité)</strong></p>
         <p><strong>Un dépannage ne fera pas l’objet d’une maintenance préventive.</strong></p>
