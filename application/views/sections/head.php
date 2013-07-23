@@ -112,7 +112,7 @@
   <?php echo img(array('assets/images/fond-top.png', 'class'=>"background"))?>
   <div class="row">
       <div class="five columns article">
-      <h2>La société AMISUN</h2><p class="lead"><nobr> est spécialisée dans l’entretien des installations photovoltaïques. </nobr><br /> <strong> Maintenance - Nettoyage - Dépannage </strong></p> <?php echo img(array('src' => 'assets/images/qualipv2013.png', 'width' => '100px', 'class' => '')); ?></div></div>
+      <h2>La société AMISUN</h2><p class="lead"><nobr> est spécialisée dans l’entretien des installations photovoltaïques. </nobr><br /> <strong> Maintenance - Nettoyage - Dépannage </strong></p> <a href="http://www.qualit-enr.org/amisun/" target="_blank"><?php echo img(array('src' => 'assets/images/logo-qualiPV-2013-grenelle2.png', 'width' => '150px', 'class' => '')); ?></a></div></div>
   <div class="ribbon-wrapper-green"><div class="ribbon-green"><?php echo anchor("contact", "Contact") ?></div></div>
 </div>
 
