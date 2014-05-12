@@ -16,7 +16,7 @@
 	<!-- Descriptive Meta Tags -->
 
 	<meta name="keywords" content="Expert, Maintenance, Photovoltaïque, solaire, Bureau d'étude, PV, Laval, Rennes, Alençon, Le Mans, Amiens, Montflours, ingenieur" />
-	<meta name="description" content="SARL AMISUN, L'expertise photovoltaïque à portée de main" />
+	<meta name="description" content="ARL AMISUN - Entretien de votre installation photovoltaïque, maintenance, nettoyage, dépannage, onduleur, panneau solaire - Mayenne, Sarthe, Ille et Vilaine, Orne, Maine et Loire." />
 	<meta name="copyright" content="Copyright (c) AMISUN 2013" />
 	<meta name="language" content="fr-FR" />
 	<meta name="author" content="Clément Patout, clement.patout@gmail.com">
@@ -28,12 +28,12 @@
 	<meta name="og:url" content="<?php echo current_url(); ?>"/>
 	<meta name="og:image" content="<?php echo base_url('images/'); ?>/amisun_noir.png"/>
 	<meta name="og:site_name" content="SARL AMISUN"/>
-	<meta name="og:description" content="Site de SARL AMISUN, L'expertise photovoltaïque à portée de main."/>
+	<meta name="og:description" content="Site de SARL AMISUN - Entretien de votre installation photovoltaïque, maintenance, nettoyage, dépannage, onduleur, panneau solaire - Mayenne, Sarthe, Ille et Vilaine, Orne, Maine et Loire."/>
 
 	<meta name="og:email" content="amisun.ouest@gmail.com"/>
 
 	<title>
-	<?php if (!isset($page_title)){echo "SARL AMISUN - L'expertise photovoltaïque à portée de main";} else {echo $page_title;} ?>
+	<?php if (!isset($page_title)){echo "SARL AMISUN - Entretien de votre installation photovoltaïque, maintenance, nettoyage, dépannage, onduleur, panneau solaire - Mayenne, Sarthe, Ille et Vilaine, Orne, Maine et Loire.";} else {echo $page_title;} ?>
 	</title>
 
     <!-- Included CSS Files -->
@@ -84,6 +84,14 @@
     </script>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&appId=222397754637658&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="menu contain-to-grid">
     <nav class="top-bar">
         <ul>
@@ -103,6 +111,8 @@
                 <li class="divider"></li>
                 <li><?php echo anchor("coordonnees", "Coordonnées") ?></li>
                 <li class="divider"></li>
+                <!--<li><?php echo anchor("actualites", "Actualités") ?></li>
+                <li class="divider"></li>-->
             </ul>
         </section>
     </nav>
@@ -112,11 +122,24 @@
   <?php echo img(array('assets/images/fond-top.png', 'class'=>"background"))?>
   <div class="row">
       <div class="five columns article">
-      <h2>La société AMISUN</h2><p class="lead"><nobr> est spécialisée dans l’entretien des installations photovoltaïques. </nobr><br /> <strong> Maintenance - Nettoyage - Dépannage </strong></p> <a href="http://www.qualit-enr.org/amisun/" target="_blank"><?php echo img(array('src' => 'assets/images/logo-qualiPV-2013-grenelle2.png', 'width' => '150px', 'class' => '')); ?></a></div></div>
-  <div class="ribbon-wrapper-green"><div class="ribbon-green"><?php echo anchor("contact", "Contact") ?></div></div>
+        <h2>La société AMISUN</h2>
+        <p class="lead">
+            <nobr> est spécialisée dans l’entretien des installations photovoltaïques. </nobr>
+            <br />
+            <strong> Maintenance - Nettoyage - Dépannage </strong>
+        </p>
+        <a href="http://www.qualit-enr.org/amisun/" target="_blank"><?php echo img(array('src' => 'assets/images/qualipv.png', 'width' => '150px', 'class' => '')); ?></a>
+        </div>
+    </div>
+    <div class="ribbon-wrapper-green"><div class="ribbon-green"><?php echo anchor("contact", "Contact") ?></div></div>
 </div>
 
 <div class="row page">
+    <div class="row">
+        <div class="offset-by-nine three columns facebook">
+            <div class="fb-like" data-href="https://www.facebook.com/amisun53" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+        </div>
+    </div>
     <?php if(!empty($msg)) {?>
     <div class="alert-box <?= $msg[1]?>">
         <?= $msg[0] ?> <a href="" class="close">&times;</a>

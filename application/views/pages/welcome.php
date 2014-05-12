@@ -13,6 +13,9 @@
         <?php echo img(array('assets/images/orbit/orbit7.jpg', 'alt' => "Local électrique", 'data-caption' => "#Caption7"))?>
         <?php echo img(array('assets/images/orbit/orbit8.jpg', 'alt' => "Maintenance électrique", 'data-caption' => "#Caption8"))?>
         <?php echo img(array('assets/images/orbit/orbit9.png', 'alt' => "Monitoring Tigo", 'data-caption' => "#Caption9"))?>
+        <?php echo img(array('assets/images/orbit/orbit10.jpg', 'alt' => ""))?>
+        <?php echo img(array('assets/images/orbit/orbit11.jpg', 'alt' => ""))?>
+        <?php echo img(array('assets/images/orbit/orbit12.jpg', 'alt' => ""))?>
     </div>
 
     <span class="orbit-caption" id="Caption1">Raccordé réseau 245 kWc</span>
