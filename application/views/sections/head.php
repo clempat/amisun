@@ -136,7 +136,8 @@
 
 <div class="row page">
     <div class="row">
-        <div class="offset-by-nine three columns facebook">
+        <div class="offset-by-nine hide-for-small two columns facebook text-center">
+            <a href="https://www.facebook.com/amisun53" target="_blank"><?php echo img(array('src' => 'assets/images/facebook.png', 'width' => '250px', 'class' => '')); ?></a><br>
             <div class="fb-like" data-href="https://www.facebook.com/amisun53" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
         </div>
     </div>
