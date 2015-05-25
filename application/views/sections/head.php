@@ -45,7 +45,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets'); ?>/stylesheets/ie.css">
 	<![endif]-->
     <script type="text/javascript">
-        var $buoop = {}
+        var $buoop = {};
         $buoop.ol = window.onload;
         window.onload=function(){
             try {if ($buoop.ol) $buoop.ol();}catch (e) {}
@@ -95,7 +95,9 @@
 <div class="menu contain-to-grid">
     <nav class="top-bar">
         <ul>
-            <li class="name"><?php echo anchor("",img(array('assets/images/amisun.png', 'class'=>"mobile-centered", 'id'=>"logo" )))?></li>
+            <li class="name">
+                <?php echo anchor("",img(array('assets/images/amisun.png', 'class'=>"mobile-centered", 'id'=>"logo", 'alt' => 'Logo entreprise AMISUN' )))?>
+            </li>
             <li class="toggle-topbar"><a href="#"></a></li>
         </ul>
         <section>
@@ -123,11 +125,11 @@
   <div class="row">
       <div class="five columns article">
         <h2>La société AMISUN</h2>
-        <p class="lead">
-            <nobr> est spécialisée dans l’entretien des installations photovoltaïques. </nobr>
-            <br />
-            <strong> Maintenance - Nettoyage - Dépannage </strong>
-        </p>
+        <div class="lead">
+          <nobr>est spécialisée dans l’entretien des installations photovoltaïques.</nobr>
+          <br />
+          <strong> Maintenance - Nettoyage - Dépannage </strong>
+        </div>
         <a href="http://www.qualit-enr.org/amisun/" target="_blank"><?php echo img(array('src' => 'assets/images/qualipv.png', 'width' => '150px', 'class' => '')); ?></a>
         </div>
     </div>
