@@ -62,5 +62,5 @@
         Le guide UTE C15-712-1 (Installation photovoltaïque) recommande une maintenance annuelle.
     </p>
     <p><strong>N’hésitez pas à nous demander un devis sur le
-            formulaire <?php echo anchor("coordonnees", "« Contact »") ?>.</strong></p>
+            formulaire <?php echo anchor("contact", "« Contact »") ?>.</strong></p>
 </div>

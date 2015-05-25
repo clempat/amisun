@@ -49,5 +49,5 @@
     <p><strong>AMISUN vous proposera un onduleur de prêt le temps de l’échange avec le constructeur (sous réserve de disponibilité)</strong></p>
     <p><strong>Un dépannage ne fera pas l’objet d’une maintenance préventive.</strong></p>
     <p><strong>Chaque dépannage de votre installation fera l’objet d’une demande intervention, nous nous engagerons à intervenir dans les meilleurs délais.</strong></p>
-    <p><strong>N’hésitez pas à remplir le formulaire <?php echo anchor("coordonnees", "« Contact »") ?>.</strong></p>
+    <p><strong>N’hésitez pas à remplir le formulaire <?php echo anchor("contact", "« Contact »") ?>.</strong></p>
 </div>

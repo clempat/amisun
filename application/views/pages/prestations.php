@@ -45,5 +45,6 @@
         </ul>
         </li>
     </ul>
+    <p><strong>N’hésitez pas à remplir le formulaire <?php echo anchor("contact", "« Contact »") ?>.</strong></p>
 </div>
 
