@@ -9,8 +9,8 @@
 <h1>Nos Prestations</h1>
 
 <div class="five columns hide-for-small text-center" style="margin-top: 80px">
-    <?php echo img('assets/images/prestation2.png'); ?>
-    <?php echo img('assets/images/prestation1.png'); ?>
+    <?php echo img(['src' => 'assets/images/prestation2.png', 'alt' => 'Installation photovoltaique en site isolé']); ?>
+    <?php echo img(['src' => 'assets/images/prestation1.jpg', 'alt' => 'Installation photovoltaique']); ?>
 </div>
 <div class="six columns offset-by-one" style="padding-top: 20px;">
     <ul class="no-bullet">
@@ -22,39 +22,27 @@
                 <li>...</li>
             </ul>
         </li>
-        <li>Notre <b>bureau d'études</b> vous apporte toute  son expérience pour vos Projets Photovoltaïques:
+        <li>Nous <b>installons</b> vos projets photovoltaïques :
             <ul>
-                <li>Raccordé réseau,</li>
-                <li>Auto-consommation,</li>
+                <li>Raccordé réseau, (9kWc jusqu'à 250 kWc)</li>
+                <li>Autoconsommation, (500Wc jusqu'à 36 kWc)</li>
                 <li>Site Isolé,</li>
-                <li>Démarches administratives,</li>
-                <li>Dossier technique Consuel,</li>
+                <li>Retrofeet, (Optimisation de votre installation)</li>
+                <li>Monitoring,</li>
+                <li>Afficheur LED,</li>
+                <li>Extracteur d’air dans les locaux onduleurs,</li>
                 <li>...</li>
             </ul>
         </li>
         <li>Nous <b>distribuons</b> le matériel suivant:
         <ul>
-            <li>Panneaux,</li>
-            <li>Onduleurs,</li>
-            <li>Structures,</li>
-            <li>Connecteurs MC4,</li>
-            <li>Régulateurs,</li>
-            <li>Batteries 2V-12V-24V,</li>
-            <li>Coffret de protection,</li>
-            <li>Kit autoconsommation,</li>
+            <li>Panneaux, (SolarWorld, SolarWatt…)</li>
+            <li>Onduleurs, (SMA, Fronius, ABB, Solaredge…)</li>
+            <li>Structures, (Mécosun, K2, GSE, IRFTS…)</li>
+            <li>Connecteurs MC4 et câble solaire,</li>
+            <li>Régulateurs, (Victron, Steca…)</li>
             <li>...</li>
         </ul>
-        </li>
-        <li>Nous <b>installons</b> le matériel suivant:
-            <ul>
-                <li>Câblage électrique d’installation photovoltaïque,</li>
-                <li>Mise en conformité d’installation photovoltaïque,</li>
-                <li>Monitoring,</li>
-                <li>Afficheur LED,</li>
-                <li>Extracteur d’air dans les locaux onduleurs,</li>
-                <li>SAV,</li>
-                <li>...</li>
-            </ul>
         </li>
     </ul>
 </div>

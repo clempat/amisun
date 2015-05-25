@@ -16,11 +16,14 @@ class Pages extends CI_Controller {
             show_404();
         }
 
+        $start = new DateTime('2005-01-01');
+        $now   = new DateTime();
+
         $data['page'] = "AMISUN - Maintenance Photovoltaïque : ".ucfirst($page);
+        $data['experience'] = $start->diff($now);
 
 
-
-        $this->load->view('sections/head', $data);
+        $this->load->view('sections/head', ['page_title' => $data['page']]);
         $this->load->view('pages/'.$page, $data);
         $this->load->view('sections/footer', $data);
     }

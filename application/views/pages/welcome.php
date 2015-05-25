@@ -3,15 +3,15 @@
 <div class="seven columns" style="margin-top: 60px">
     <div id="reference">
         <?php echo img(array('assets/images/logo_amisun.jpg', 'alt' => "Logo Amisun")) ?>
-        <?php echo img(array('assets/images/orbit/orbit12.jpg', 'alt' => "")) ?>
+        <?php echo img(array('assets/images/orbit/orbit12.jpg', 'alt' => "Partenaire Amisun. SolarMax, SMA, Power one, Schneider...")) ?>
         <?php echo img(array('assets/images/orbit/orbit3.jpg', 'alt' => "Maintenance électrique", 'data-caption' => "#Caption3")) ?>
         <?php echo img(array('assets/images/orbit/orbit1.png', 'alt' => "Raccordé réseau 245 kWc", 'data-caption' => "#Caption1")) ?>
         <?php echo img(array('assets/images/orbit/orbit6.jpg', 'alt' => "Raccordé réseau particulier", 'data-caption' => "#Caption6")) ?>
         <?php echo img(array('assets/images/orbit/orbit7.jpg', 'alt' => "Local électrique", 'data-caption' => "#Caption7")) ?>
         <?php echo img(array('assets/images/orbit/orbit8.jpg', 'alt' => "Maintenance électrique", 'data-caption' => "#Caption8")) ?>
         <?php echo img(array('assets/images/orbit/orbit9.png', 'alt' => "Monitoring Tigo", 'data-caption' => "#Caption9")) ?>
-        <?php echo img(array('assets/images/orbit/orbit10.jpg', 'alt' => "")) ?>
-        <?php echo img(array('assets/images/orbit/orbit11.jpg', 'alt' => "")) ?>
+        <?php echo img(array('assets/images/orbit/orbit10.jpg', 'alt' => "Un panneau solaire sale est moins rentable")) ?>
+        <?php echo img(array('assets/images/orbit/orbit11.jpg', 'alt' => "Installation électrique")) ?>
     </div>
 
     <span class="orbit-caption" id="Caption1">Raccordé réseau 245 kWc</span>
@@ -26,12 +26,13 @@
 </div>
 
 <div class="five columns panel radius">
-    <h3>Un interlocuteur unique</h3>
+    <h2>Un interlocuteur unique</h2>
 
-    <p><strong>AMISUN</strong> a l’avantage d’avoir une expérience de 7 ans sur le terrain et en bureau d’études
-        photovoltaïque, nous avons constaté qu’il était indispensable d’effectuer un suivi de votre générateur solaire
-        pour garantir le bon fonctionnement du système dans le temps et sécuriser vos revenus (Maintenance électrique,
-        nettoyage, dépannage, monitoring…)
+    <p><strong>AMISUN</strong> a l’avantage d’avoir une expérience de
+        <strong><?php echo $experience->format('%yans') ?></strong> sur le
+        terrain et en bureau d’études photovoltaïque, nous avons constaté qu’il était indispensable d’effectuer un suivi
+        de votre générateur solaire pour garantir le bon fonctionnement du système dans le temps et sécuriser vos
+        revenus (Maintenance électrique, nettoyage, dépannage, monitoring…)
     </p>
 
     <p>
@@ -41,9 +42,9 @@
     </p>
 
     <p>
-        <strong>AMISUN</strong> intervient chez les particuliers et professionnels dans le Nord Ouest de la France dans
-        les départements suivants : Mayenne (53), Sarthe (72), Maine et Loire (49), Ille et Vilaine (35), Orne (61),
-        Manche (50)…
+        <strong>AMISUN</strong> intervient chez les particuliers, professionnels et collectivités dans le Nord Ouest de
+        la France dans les départements suivants : Mayenne (53), Sarthe (72), Maine et Loire (49), Ille et Vilaine (35),
+        Orne (61), Manche (50)…
     </p>
 
 </div>
