@@ -6,7 +6,7 @@
  * Time: 18:36
  * To change this template use File | Settings | File Templates.
  */?>
-<h1>Nos Prestations</h1>
+<h1>Installation/Distribution</h1>
 
 <div class="five columns hide-for-small text-center" style="margin-top: 80px">
     <?php echo img(array('src' => 'assets/images/prestation2.png', 'alt' => 'Installation photovoltaique en site isolé')); ?>

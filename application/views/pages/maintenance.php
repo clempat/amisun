@@ -55,7 +55,7 @@
         établissons les préconisations de réparations. Nous vous accompagnons ensuite lors des réparations.
     </p>
     <p>
-        ous proposons une maintenance préventive qui vous permettra de résoudre 90% des pannes pouvant survenir sur
+        Nous proposons une maintenance préventive qui vous permettra de résoudre 90% des pannes pouvant survenir sur
         votre installation photovoltaïque.
     </p>
     <p>

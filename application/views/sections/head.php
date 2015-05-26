@@ -109,7 +109,7 @@
                 <li class="divider"></li>
                 <li><?php echo anchor("depannage", "Dépannage") ?></li>
                 <li class="divider"></li>
-                <li><?php echo anchor("prestations", "Autres Prestations") ?></li>
+                <li><?php echo anchor("prestations", "Installations") ?></li>
                 <li class="divider"></li>
                 <li><?php echo anchor("coordonnees", "Coordonnées") ?></li>
                 <li class="divider"></li>
