@@ -16,14 +16,15 @@ class Pages extends CI_Controller {
             show_404();
         }
 
-        $start = new DateTime('2005-01-01');
-        $now   = new DateTime();
+        $start = 2005;
+        $now   = (int) date('Y');
 
         $data['page'] = "AMISUN - Maintenance Photovoltaïque : ".ucfirst($page);
-        $data['experience'] = $start->diff($now);
+        //$data['experience'] = $start->diff($now); old php :(
+        $data['experience'] = $now - $start;
 
 
-        $this->load->view('sections/head', ['page_title' => $data['page']]);
+        $this->load->view('sections/head', array('page_title' => $data['page']));
         $this->load->view('pages/'.$page, $data);
         $this->load->view('sections/footer', $data);
     }

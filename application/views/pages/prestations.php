@@ -9,8 +9,8 @@
 <h1>Nos Prestations</h1>
 
 <div class="five columns hide-for-small text-center" style="margin-top: 80px">
-    <?php echo img(['src' => 'assets/images/prestation2.png', 'alt' => 'Installation photovoltaique en site isolé']); ?>
-    <?php echo img(['src' => 'assets/images/prestation1.jpg', 'alt' => 'Installation photovoltaique']); ?>
+    <?php echo img(array('src' => 'assets/images/prestation2.png', 'alt' => 'Installation photovoltaique en site isolé')); ?>
+    <?php echo img(array('src' => 'assets/images/prestation1.jpg', 'alt' => 'Installation photovoltaique')); ?>
 </div>
 <div class="six columns offset-by-one" style="padding-top: 20px;">
     <ul class="no-bullet">

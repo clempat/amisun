@@ -29,7 +29,7 @@
     <h2>Un interlocuteur unique</h2>
 
     <p><strong>AMISUN</strong> a l’avantage d’avoir une expérience de
-        <strong><?php echo $experience->format('%yans') ?></strong> sur le
+        <strong><?php echo $experience ?>ans</strong> sur le
         terrain et en bureau d’études photovoltaïque, nous avons constaté qu’il était indispensable d’effectuer un suivi
         de votre générateur solaire pour garantir le bon fonctionnement du système dans le temps et sécuriser vos
         revenus (Maintenance électrique, nettoyage, dépannage, monitoring…)

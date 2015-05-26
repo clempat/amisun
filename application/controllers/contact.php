@@ -134,7 +134,7 @@ class Contact extends CI_Controller {
         }
         $data['mail_sent']=$mail_sent;
 
-        $this->load->view('sections/head', ['page_title' => 'Amisun - Contactez-nous, demande de devis gratuit !']);
+        $this->load->view('sections/head', array('page_title' => 'Amisun - Contactez-nous, demande de devis gratuit !'));
         $this->load->view('pages/contact',$data);
         $this->load->view('sections/footer');
     }
