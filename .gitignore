@@ -8,3 +8,4 @@ config/deploy.rb
 .php-version
 .vagrant
 .idea
+deploy.sh
