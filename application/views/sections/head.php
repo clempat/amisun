@@ -124,12 +124,12 @@
   <?php echo img(array('assets/images/fond-top.png', 'class'=>"background"))?>
   <div class="row">
       <div class="five columns article">
-        <h2>La société AMISUN</h2>
-        <div class="lead">
+        <h2>AMISUN</h2>
+        <p class="lead">
           <nobr>est spécialisée dans l’entretien des installations photovoltaïques.</nobr>
           <br />
           <strong> Maintenance - Nettoyage - Dépannage </strong>
-        </div>
+        </p>
         <a href="http://www.qualit-enr.org/amisun/" target="_blank"><?php echo img(array('src' => 'assets/images/qualipv.png', 'width' => '150px', 'class' => '')); ?></a>
         </div>
     </div>
