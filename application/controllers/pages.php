@@ -18,7 +18,7 @@ class Pages extends CI_Controller
         $start = 2005;
         $now   = (int) date('Y');
 
-        $data['page'] = "AMISUN - Maintenance Photovoltaïque : " . ucfirst($page);
+        $data['page'] = "AMISUN entretien photovoltaïque - " . ucfirst($page);
         //$data['experience'] = $start->diff($now); old php :(
         $data['experience'] = $now - $start;
 
