@@ -33,6 +33,6 @@
             </li>
         </ul>
         </p>
-        <p><strong>AMISUN</strong> est située à 10km de LAVAL (Mayenne), et proche des villes comme RENNES, LE MANS, ANGERS, ALENÇON...</p>
+        <p><strong>AMISUN</strong> est située à 10km de LAVAL (Mayenne), et proche des villes comme RENNES, LE MANS, ANGERS, ALENÇON, PAYS DE LA LOIRE, BRETAGNE, NORMANDIE...</p>
     </div>
 </div>
