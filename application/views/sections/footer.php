@@ -5,7 +5,12 @@
     </div>
 </div>
 </div>
-<div id="bottom_page">&copy; Amisun <span>| 6 allée du Clos Saint Martin - 53240 MONTFLOURS - (MAYENNE) - FRANCE | Maintenance - Nettoyage - Dépannage</span> - <?php echo anchor("mention", "Mentions légales") ?></div>
+<div id="bottom_page">
+    <span>&copy; Amisun</span> |
+    <span class="no-mobile">6 allée du Clos Saint Martin - 53240 MONTFLOURS - (MAYENNE) - FRANCE</span> |
+    <span class="no-mobile">Maintenance - Nettoyage - Dépannage - Installation photovoltaïque</span> |
+    <span><?php echo anchor("mention", "Mentions légales") ?></span>
+</div>
 	<!-- Import all other JS files using HeadJS -->
     <script type="text/javascript">
 	head.js("<?php echo base_url('assets'); ?>/javascripts/jquery.js")

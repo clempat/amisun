@@ -128,9 +128,10 @@
         <p class="lead">
           <nobr>est spécialisée dans l’entretien des installations photovoltaïques.</nobr>
           <br />
-          <strong> Maintenance - Nettoyage - Dépannage </strong>
+          <strong> Maintenance - Nettoyage - Dépannage - Installation </strong>
         </p>
-        <a href="http://www.qualit-enr.org/amisun/" target="_blank"><?php echo img(array('src' => 'assets/images/qualipv.png', 'width' => '150px', 'class' => '')); ?></a>
+        <a href="http://www.qualit-enr.org/amisun/" target="_blank"><?php echo img(array('src' => 'assets/images/qualipv.png', 'height' => '88px', 'class' => '')); ?></a>
+        <a href="http://france.pvcycle.org/" target="_blank"><?php echo img(array('src' => 'assets/images/pvcycle.png', 'height' => '88px', 'class' => '')); ?></a>
         </div>
     </div>
     <div class="ribbon-wrapper-green"><div class="ribbon-green"><?php echo anchor("contact", "Contact") ?></div></div>
