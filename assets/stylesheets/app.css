@@ -6030,4 +6030,9 @@ table.hide-for-medium {
   .top-bar ul > li.has-button a.button {
     margin: 0;
   }
+
+}
+
+.pvcycle {
+  margin-left: 10px;
 }
