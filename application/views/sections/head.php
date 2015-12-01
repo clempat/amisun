@@ -134,7 +134,7 @@
         <a href="http://france.pvcycle.org/" target="_blank"><?php echo img(array('src' => 'assets/images/pvcycle2.png', 'height' => '88px', 'class' => 'pvcycle')); ?></a>
         </div>
     </div>
-    <div class="ribbon-wrapper-green"><div class="ribbon-green"><?php echo anchor("contact", "Contact") ?></div></div>
+    <div class="ribbon-wrapper-red"><div class="ribbon-red"><?php echo anchor("contact", "Contact <br> Demande de devis") ?></div></div>
 </div>
 
 <div class="row page">
